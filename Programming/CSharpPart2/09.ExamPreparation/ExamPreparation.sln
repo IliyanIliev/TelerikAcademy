@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{7E603A95-4FF9-4E62-BD3A-1A7848FE2BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tubes", "Tubes\Tubes.csproj", "{FAFD7A78-C32E-47F7-87C7-85465665B83A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E603A95-4FF9-4E62-BD3A-1A7848FE2BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E603A95-4FF9-4E62-BD3A-1A7848FE2BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E603A95-4FF9-4E62-BD3A-1A7848FE2BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E603A95-4FF9-4E62-BD3A-1A7848FE2BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFD7A78-C32E-47F7-87C7-85465665B83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFD7A78-C32E-47F7-87C7-85465665B83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFD7A78-C32E-47F7-87C7-85465665B83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFD7A78-C32E-47F7-87C7-85465665B83A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

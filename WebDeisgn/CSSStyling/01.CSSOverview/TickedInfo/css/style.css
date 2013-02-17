@@ -1,0 +1,59 @@
+﻿html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, img, ins, kbd, q, s, samp,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    background-color: #595959;
+    color: #e5e5e5;
+}
+
+thead th {
+    color: #adadad;
+    font: 26px Arial;
+}
+
+tbody tr td:first-child {
+    font: 18px Arial italic;
+}
+
+td {
+    padding: 8px;
+    font: 18px Arial Narrow;
+}
+
+.red {
+    color: #ee0814;
+    font-weight: bold;
+}
+
+.orange {
+    color: #d36a29;
+    font-weight: bold;
+}
+
+.yellow {
+    color: #fdf0a2;
+}
+
+.grey {
+    color: #b0b0b0;
+}
+td img {
+    padding-right:5px;
+}

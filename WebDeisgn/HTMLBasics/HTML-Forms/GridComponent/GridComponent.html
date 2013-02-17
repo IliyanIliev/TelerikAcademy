@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Web Form</title>
+    <style type="text/css">
+        table {
+            background-color: grey;
+        }
+
+        td, th {
+            background-color: white;
+            padding: 5px;
+            padding-right: 20px;
+        }
+
+        .filter {
+            width: 24px;
+            height: 22px;
+            background: url('img/filter.png') no-repeat;
+            cursor: pointer;
+        }
+
+        button {
+            font-weight: bolder;
+        }
+
+        input[type='text'] {
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="6" style="text-align: left">Drag a column header and drop it here to group by that column</th>
+                </tr>
+                <tr>
+                    <th>ProductID</th>
+                    <th>Product name</th>
+                    <th>Unit price</th>
+                    <th>Quantity per unit</th>
+                    <th>Units in stock</th>
+                    <th>Discontinued</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" style="width: 40px" /></td>
+                    <td>
+                        <input type="text" style="width: 146px" /></td>
+                    <td>
+                        <input type="text" />
+                        <button class="filter"></button>
+                    </td>
+                    <td>
+                        <input type="text" /></td>
+                    <td>
+                        <input type="text" />
+                        <button class="filter"></button>
+                    </td>
+                    <td>
+                        <input type="checkbox" />
+                        <button class="filter"></button>
+                    </td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+
+                        <button>|<</button>
+                        <button><</button>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#">9</a>
+                        <a href="#">10</a>
+                        <span>...</span>
+                        <button>></button>
+                        <button>>|</button>
+                        <span>Page size:</span>
+                        <select>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+
+
+                        <span style="float: right">3351014 items in 3351018 pages</span>
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chai</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Chang</td>
+                    <td>$19.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" checked="checked" /></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Aniseed Syrup</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Chef Anton's Cajun Seasoning</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Chef Anton's Gumbo Mix</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Grandma's Boysenberry Spread</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Uncle Bob's Organic Dried Pears</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Northwoods Cranberry Sauce</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Mishi Kobe Niku</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Ikura</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+@mixin spanProp {
+		
+	display: inline-block;
+	width: 500px;
+	height: 500px;					
+	background-repeat: no-repeat;
+	margin-left: 40px;	
+
+}
+
+body {
+
+	ul {
+
+		list-style-type: none;		
+
+		li {
+			
+			display: inline-block;
+			margin-right: 10px;
+
+			.thumbnail {
+				height: 150px;
+				width: 150px;
+			}
+		}
+	}
+		
+	input[type=radio] {
+			
+		display: none;			
+
+		&:checked + label {
+
+			span {
+			
+				@include spanProp;
+			}
+			
+			#lionSpan {
+					
+				background-image: url(images/lions.png);
+				
+			}
+
+			#tigerSpan {	
+				
+				background-image: url(images/tiger.png);
+				
+			}
+
+			#pantherSpan {	
+				
+				background-image: url(images/panther.png);
+			
+			}
+
+			#cheetahSpan {
+					
+				background-image: url(images/cheetah.png);
+				
+			}
+
+			#polarBearSpan {	
+				
+				background-image: url(images/polar_bears.png);
+				
+			}
+
+			#blackHorseSpan {
+					
+				background-image: url(images/black_horse.png);
+			
+			}
+		}	
+	}
+}

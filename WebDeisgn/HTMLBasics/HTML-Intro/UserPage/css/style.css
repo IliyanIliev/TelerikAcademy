@@ -1,0 +1,56 @@
+﻿body {
+    font-family:Verdana, sans-serif;
+    background-color:#f0f0f0;
+}
+h1, h2, h3, h4, h5, h6 { margin: 0; font-family:Verdana, sans-serif; color:#171717; }
+a, a:link, a:visited, .colored { outline: none; font:bold 14px Verdana, sans-serif; color: #2672EC; text-decoration: none;  }
+a:hover { text-decoration: underline; }
+footer,header,nav,section { 
+    display:block;
+}
+#personInfo {
+    padding: 0 30px;
+    margin-left:150px;
+    width:200px;
+}
+#personInfo p {
+    color: #171717;
+    margin-top:0px;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style:none;
+    display:inline;
+    padding:10px;
+    text-indent:0;
+
+}
+
+#container {
+    padding: 10px 30px;
+    width:400px;
+}
+#container img {
+    border:3px #2672EC solid;
+    float:left;
+}
+
+dl {
+counter-reset: term;
+}
+dt {
+    color:#2672EC;
+    font-style:italic;
+}
+
+dt:before {
+counter-increment: term;
+content: counter(term);
+}
+
+dt:before {
+content: counter(term) ". ";
+}

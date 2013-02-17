@@ -1,0 +1,29 @@
+body ul {
+  list-style-type: none; }
+  body ul li {
+    display: inline-block;
+    margin-right: 10px; }
+    body ul li .thumbnail {
+      height: 150px;
+      width: 150px; }
+body input[type=radio] {
+  display: none; }
+  body input[type=radio]:checked + label span {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: 40px; }
+  body input[type=radio]:checked + label #lionSpan {
+    background-image: url(images/lions.png); }
+  body input[type=radio]:checked + label #tigerSpan {
+    background-image: url(images/tiger.png); }
+  body input[type=radio]:checked + label #pantherSpan {
+    background-image: url(images/panther.png); }
+  body input[type=radio]:checked + label #cheetahSpan {
+    background-image: url(images/cheetah.png); }
+  body input[type=radio]:checked + label #polarBearSpan {
+    background-image: url(images/polar_bears.png); }
+  body input[type=radio]:checked + label #blackHorseSpan {
+    background-image: url(images/black_horse.png); }
+
